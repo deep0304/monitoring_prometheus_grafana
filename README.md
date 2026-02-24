@@ -106,7 +106,7 @@ Metrics were successfully collected from Node Exporter.
 ## Grafana Configuration
 
 - Grafana running on port 3000
-      http://<public-ip>:3000
+      http://public-ip:3000
       same as the prometheus server  (prometheus server ip : 44.202.182.51 )
 <img width="1772" height="897" alt="Screenshot 2026-02-24 151010" src="https://github.com/user-attachments/assets/e4a63fbe-8036-426d-8e33-570f2047e4fa" />
 
