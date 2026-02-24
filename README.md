@@ -96,21 +96,27 @@ Verified targets at:
 
 Metrics were successfully collected from Node Exporter.
 
+<img width="1884" height="711" alt="image" src="https://github.com/user-attachments/assets/c477c0e0-60aa-474d-b650-f080c4a0f595" />
 
+<!-- graph data usage of cpu via prometheus itself -->
 <img width="1854" height="896" alt="Screenshot 2026-02-24 164347" src="https://github.com/user-attachments/assets/a1624a18-4202-470b-a4a7-646dfe74383a" />
 
 ---
 
 ## Grafana Configuration
 
+- Grafana running on port 3000
+      http://localhost:3000
+<img width="1772" height="897" alt="Screenshot 2026-02-24 151010" src="https://github.com/user-attachments/assets/e4a63fbe-8036-426d-8e33-570f2047e4fa" />
+
+
 - Added Prometheus as Data Source:
   
       http://localhost:9090
 
-<img width="1772" height="897" alt="Screenshot 2026-02-24 151010" src="https://github.com/user-attachments/assets/e4a63fbe-8036-426d-8e33-570f2047e4fa" />
-
-
 <img width="1490" height="526" alt="Screenshot 2026-02-24 151825" src="https://github.com/user-attachments/assets/ef8128ab-8696-44a8-bdda-26b0ff8c6d1b" />
+
+---
 
 <img width="1059" height="341" alt="Screenshot 2026-02-24 153504" src="https://github.com/user-attachments/assets/ed64ecc4-8330-4bdd-af25-956f05904ec1" />
 
@@ -139,7 +145,7 @@ Created CPU usage alert using PromQL:
 Alert condition:
 - Trigger when CPU usage exceeds 70%
 
-  <img width="1509" height="561" alt="Screenshot 2026-02-24 164400" src="https://github.com/user-attachments/assets/70462bcd-97f8-4bfe-8aa7-613cd1d09271" />
+<img width="1509" height="561" alt="Screenshot 2026-02-24 164400" src="https://github.com/user-attachments/assets/70462bcd-97f8-4bfe-8aa7-613cd1d09271" />
 
 
 <img width="1425" height="732" alt="Screenshot 2026-02-24 155131" src="https://github.com/user-attachments/assets/ee4583f8-c21d-4789-b317-34414fe5dddc" />
