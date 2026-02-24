@@ -22,7 +22,10 @@ The objective was to implement end-to-end infrastructure provisioning, metric sc
 - Security groups configured for required inbound and outbound rules
 - Two EC2 instances deployed in the isolated environment
 
+<img width="1332" height="651" alt="Screenshot 2026-02-24 151044" src="https://github.com/user-attachments/assets/3d8fba23-c2ad-42a7-9538-0933d708d4ef" />
+
 ---
+
 
 ## EC2 Instances
 
@@ -36,6 +39,15 @@ The objective was to implement end-to-end infrastructure provisioning, metric sc
 - Prometheus installed (Port 9090)
 - Grafana installed (Port 3000)
 - Prometheus and Grafana running on the same instance
+
+
+<img width="1461" height="511" alt="Screenshot 2026-02-24 151237" src="https://github.com/user-attachments/assets/02ad4d00-6dbe-46b7-8610-06e8e2740d6d" />
+
+<img width="1490" height="526" alt="Screenshot 2026-02-24 151825" src="https://github.com/user-attachments/assets/2087f1f4-7162-4700-a272-398cb167e13f" />
+
+<img width="1495" height="491" alt="Screenshot 2026-02-24 151832" src="https://github.com/user-attachments/assets/291c2f1a-42f6-454a-8982-2bf91ba58282" />
+
+
 
 ---
 
@@ -84,6 +96,9 @@ Verified targets at:
 
 Metrics were successfully collected from Node Exporter.
 
+
+<img width="1854" height="896" alt="Screenshot 2026-02-24 164347" src="https://github.com/user-attachments/assets/a1624a18-4202-470b-a4a7-646dfe74383a" />
+
 ---
 
 ## Grafana Configuration
@@ -92,12 +107,22 @@ Metrics were successfully collected from Node Exporter.
   
       http://localhost:9090
 
+<img width="1772" height="897" alt="Screenshot 2026-02-24 151010" src="https://github.com/user-attachments/assets/e4a63fbe-8036-426d-8e33-570f2047e4fa" />
+
+
+<img width="1490" height="526" alt="Screenshot 2026-02-24 151825" src="https://github.com/user-attachments/assets/ef8128ab-8696-44a8-bdda-26b0ff8c6d1b" />
+
+<img width="1059" height="341" alt="Screenshot 2026-02-24 153504" src="https://github.com/user-attachments/assets/ed64ecc4-8330-4bdd-af25-956f05904ec1" />
+
+
 - Imported dashboard ID: 11074
 - Visualized:
   - CPU usage
   - Memory usage
   - Disk utilization
   - Network activity
+
+<img width="1495" height="763" alt="Screenshot 2026-02-24 172745" src="https://github.com/user-attachments/assets/eee3afa1-b4b8-43a3-a81b-4134ef7500da" />
 
 ---
 
@@ -113,6 +138,11 @@ Created CPU usage alert using PromQL:
 
 Alert condition:
 - Trigger when CPU usage exceeds 70%
+
+  <img width="1509" height="561" alt="Screenshot 2026-02-24 164400" src="https://github.com/user-attachments/assets/70462bcd-97f8-4bfe-8aa7-613cd1d09271" />
+
+
+<img width="1425" height="732" alt="Screenshot 2026-02-24 155131" src="https://github.com/user-attachments/assets/ee4583f8-c21d-4789-b317-34414fe5dddc" />
 
 ---
 
@@ -147,6 +177,10 @@ Configured:
 - Tested contact point successfully
 
 Received email notification when alert fired.
+<img width="1576" height="828" alt="Screenshot 2026-02-24 164054" src="https://github.com/user-attachments/assets/225d6b42-22f2-46eb-a251-35c7ba291376" />
+
+<img width="1420" height="731" alt="Screenshot 2026-02-24 164107" src="https://github.com/user-attachments/assets/9d723c63-c0b1-4e90-b44f-14da40a15172" />
+
 
 ---
 
@@ -157,6 +191,11 @@ Received email notification when alert fired.
 - Public vs private IP confusion
 - Service binding issues
 - YAML configuration mistakes
+
+<img width="1909" height="736" alt="Screenshot 2026-02-24 153008" src="https://github.com/user-attachments/assets/c29953ce-1248-4c4e-9a23-9cb0871f2ecb" />
+
+<img width="1826" height="612" alt="Screenshot 2026-02-24 153430" src="https://github.com/user-attachments/assets/2bdb627e-8167-4371-a37e-1089e736ae79" />
+
 
 Resolved using:
 - systemctl status
